@@ -1,0 +1,71 @@
+html{
+  min-height: 100%;
+}
+
+body{
+  min-height: 100%;
+}
+
+
+.back-div{
+ 
+   background: url('https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_907,q_75,w_1100/v1/clients/virginiabeachva/144_3_0549_jpeg_d01e8111-6cfa-416b-beb1-6e29b34df90b.jpg');
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+ 
+  
+}
+
+#sign-div  , #log-div , #for-div , #reset-div{
+  margin:auto;
+  padding: 10px;
+  width:50%;
+  margin-top: 30px;
+ }
+
+ #main-card{
+  width: 50%;
+  background: transparent;
+  margin: auto;
+  border:none;
+  margin-bottom: 25%;
+}
+
+
+@media(min-width:0px) and (max-width:768px){
+
+  html{
+    min-height: 100%;
+  }
+
+  body{
+    min-height: 100%;
+  }
+  #main-card{
+    width: 100%;
+    height:100%;
+    background: transparent;
+    margin: auto;
+    border:none;
+    margin-bottom: 25%;
+  }
+  #sign-div{
+    width: 100%;
+  }
+
+  #log-div{
+    width:100%;
+  }
+
+  #for-div{
+    width:100%;
+  }
+
+  #reset-div{
+    width:100%;
+  }
+}
+
+
+
